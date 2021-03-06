@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import NotFoundRoute from './NotFoundRoute';
-import App from './lib/Index';
+import App from './plugin/Index';
 import ExternalTheme from './ExternalTheme';
 
 ReactDom.render((

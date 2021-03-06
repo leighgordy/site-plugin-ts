@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import DefaultRoute from '../src/lib/DefaultRoute';
+import DefaultRoute from '../src/plugin/DefaultRoute';
 
 describe('DefaultRoute.test.js', () => {
   test('A simple test', () => {
