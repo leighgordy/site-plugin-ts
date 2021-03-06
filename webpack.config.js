@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: './src/Index.jsx',
+  entry: './src/Index.tsx',
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
@@ -31,7 +31,7 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.(js|jsx)$/,
+        test: /\.(ts|tsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -40,6 +40,6 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
+    extensions: ['.ts', '.tsx', '.js', '.json']
   },
 };
