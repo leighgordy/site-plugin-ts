@@ -1,6 +1,6 @@
 # site-plugin-ts
 
-This project allows you to build a React component isolation, export it as a JS module which can be utilized by another react app. 
+This project allows you to build a TypeScript React component isolation, export it as a JS module which can be utilized by another react app. 
 This project can serve the component as its own mini website via webpack for development. It is designed to be completely modular 
 so styles will not bleed thanks to [styled-components](https://styled-components.com/).
 
@@ -42,3 +42,4 @@ You should not need to ever edit the configuration in src. It will still work if
 * [react-router](https://reactrouter.com/web/guides/quick-start)
 * [react-router nested routing](https://reactrouter.com/web/guides/quick-start/2nd-example-nested-routing)
 * [styled-components](https://styled-components.com/)
+* [typescript](https://www.typescriptlang.org/)
