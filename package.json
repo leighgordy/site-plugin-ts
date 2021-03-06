@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leighgordy/site-plugin.git"
+    "url": "git+https://github.com/leighgordy/site-plugin-ts.git"
   },
   "author": "leighgordy@gmail.com",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/leighgordy/site-plugin/issues"
+    "url": "https://github.com/leighgordy/site-plugin-ts/issues"
   },
-  "homepage": "https://github.com/leighgordy/site-plugin#readme",
+  "homepage": "https://github.com/leighgordy/site-plugin-ts#readme",
   "devDependencies": {
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.0",
