@@ -8,8 +8,9 @@ This design allows you to break up a large web frontend application into several
 of conflicts and errors. Its surprising how many organisations have a dozen backend teams and one large frontend team. You can have a dozen frontend teams too!
 
 ## Project Structure
-* `lib` - Contains the module code that will be used by the parent application.
-* `src` - Contains only the site assets to demo code in webpack. Imports the contents of lib directly. 
+* `src/plugin` - Plugin source code. The contents of this folder is published ot the `lib` folder.
+* `src` - Everything other than`plugin` is used to load the plugin in webpack
+* `lib` - Contains the production version of the plugin used by external applications
 * `jest` - Contains jest tests
 
 ## Configuration
@@ -28,7 +29,8 @@ You should not need to ever edit the configuration in src. It will still work if
 
 ## Commands
 
-* `npm run serve` - serves lib via webpack-dev-server 
+* `npm run serve` - serves the plugin via webpack-dev-server
+* `npm run build` - builds the production code in the lib folder. Runs lint and then TypeScript comiler.
 * `npm run test` - runs the jest tests
 * `npm run coverage` - runs the site coverage
 * `npm run lint` - runs AirBnB linting rules against lib, src and test

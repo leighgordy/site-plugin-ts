@@ -4,7 +4,7 @@
   "description": "This is a TypeScript webpack project that has been designed to be imported as an ES6 module by other projects.  This pattern allows you to break up a large web application into several projects.  This is useful when you are reusing components in different projects or if you want several teams  of developers to work on a very large project.",
   "main": "lib/Index.js",
   "scripts": {
-    "build": "tsc --project tsconfig.production.json",
+    "build": "eslint --ext .ts,.tsx src && tsc --project tsconfig.production.json",
     "serve": "webpack serve --open",
     "test": "jest",
     "coverage": "jest --coverage",
