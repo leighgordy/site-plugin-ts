@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Plugin</title>
+  <style type="text/css">
+      html, body {
+          height: 100%;
+      }
+      #root {
+          height: 100%;
+      }
+      .loader {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+      }
+      .loader-wheel {
+          animation: spin 1s infinite linear;
+          border: 2px solid #fff;
+          border-left: 4px solid #000;
+          border-radius: 50%;
+          height: 50px;
+          margin-bottom: 10px;
+          width: 50px;
+      }
+      @keyframes spin {
+          0% {
+              transform: rotate(0deg);
+          }
+          100% {
+              transform: rotate(360deg);
+          }
+      }
+  </style>
+</head>
+<body>
+<div id="root">
+  <div class="loader">
+    <div class="loader-wheel" aria-hidden="false" aria-label="Loading Application" aria-live="assertive"></div>
+  </div>
+</div>
+</body>
+</html>
