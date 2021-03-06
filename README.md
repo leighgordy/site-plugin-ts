@@ -1,4 +1,4 @@
-# site-plugin
+# site-plugin-ts
 
 This project allows you to build a React component isolation, export it as a JS module which can be utilized by another react app. 
 This project can serve the component as its own mini website via webpack for development. It is designed to be completely modular 
