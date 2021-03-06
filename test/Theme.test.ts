@@ -1,4 +1,4 @@
-import theme from '../lib/Theme';
+import theme from '../src/lib/Theme';
 
 describe('Theme.js', () => {
   const parentTheme = {

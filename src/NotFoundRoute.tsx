@@ -12,7 +12,7 @@ const Wrapper = styled.section`
   border: 5px solid red;;
 `;
 
-function NotFoundRoute() {
+function NotFoundRoute() : JSX.Element{
   return (
     <Wrapper>
       <Title>

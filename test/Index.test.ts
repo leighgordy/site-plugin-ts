@@ -1,5 +1,5 @@
-import Index from '../lib/Index';
-import App from '../lib/App';
+import Index from '../src/lib/Index';
+import App from '../src/lib/App';
 
 describe('Index.js', () => {
   test('Test module exports correct objects', () => {

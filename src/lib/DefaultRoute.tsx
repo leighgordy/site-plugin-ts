@@ -13,7 +13,7 @@ const Wrapper = styled.section`
   background: papayawhip;
 `;
 
-function DefaultRoute() {
+function DefaultRoute(): JSX.Element {
   return (
     <Wrapper>
       <Title>

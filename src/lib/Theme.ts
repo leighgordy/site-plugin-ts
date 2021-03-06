@@ -9,6 +9,6 @@ export default {};
  * Override parent theme
  * @param parentTheme - The parent theme inherited from the main site outside the plugin.
  */
-export default (parentTheme: object) => ({
+export default (parentTheme:Record<string, unknown>):Record<string, unknown> => ({
   ...parentTheme,
 });

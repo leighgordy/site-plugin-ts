@@ -2,9 +2,9 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { createMemoryHistory } from 'history';
 import { Router } from 'react-router-dom';
-import App from '../lib/App';
+import App from '../src/lib/App';
 
-jest.mock('../lib/DefaultRoute', () => ({
+jest.mock('../src/lib/DefaultRoute', () => ({
   __esModule: true,
   default: jest.fn(() => (<div>Default Route</div>)),
 }));

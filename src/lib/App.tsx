@@ -11,7 +11,7 @@ import DefaultRoute from './DefaultRoute';
 // if you are not using react router
 // dont forget to remove the react-router-dom import!
 /*
-function App() {
+function App(): JSX.Element {
   return (
     <ThemeProvider theme={PluginTheme}>
       <DefaultRoute />
@@ -20,7 +20,7 @@ function App() {
 }
 */
 
-function App() {
+function App() : JSX.Element{
   const match = useRouteMatch();
   return (
     <ThemeProvider theme={PluginTheme}>
